@@ -1,0 +1,254 @@
+@import url(http://fonts.googleapis.com/css?family=Nunito:300);
+body{
+		width:auto;
+}
+
+
+.conteudo {
+    padding-left:20px;
+	padding-right:20px;
+	padding-top:80px;
+	width:auto;
+	margin-bottom:70px;
+	font-family: 'Nunito', sans-serif;
+}
+.declaracao_ir {
+    font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	margin-left:2.5em;
+	margin-right:2.5em;
+	margin-top::3.5em;
+}
+.conteudo_ficha {
+    padding-left:20px;
+	padding-right:20px;
+	padding-top:80px;
+	width:auto;
+	margin-bottom:70px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+}
+
+.central-ead {
+	width:79%;
+	float:left;
+	text-align:center;
+}
+.right-ead {
+	width:20%;
+	float:left;
+
+}
+
+footer {
+    background-color:#066;
+    bottom:0;
+    box-shadow: 0 -1px 2px #111111;
+    display:block;
+    height:30px;
+    left:0;
+    position:fixed;
+    width:100%;
+    z-index:100;
+}
+
+footer h2{
+    font-size:22px;
+    font-weight:normal;
+    left:50%;
+    margin-left:-400px;
+    padding:22px 0;
+    position:absolute;
+    width:540px;
+}
+
+footer a.stuts,a.stuts:visited{
+    border:none;
+    text-decoration:none;
+    color:#fcfcfc;
+    font-size:12px;
+    left:65%;
+    line-height:31px;
+    position:absolute;
+    top:0;
+}
+
+footer .stuts span {
+    font-size:22px;
+    font-weight:bold;
+    margin-left:5px;
+}
+
+
+
+.usuario {
+	border-style:none;
+    color:#fff;
+    font-size:13px;
+    font-weight:bold;
+	background-color:#6c6c6c;
+    text-decoration:none;
+    text-shadow:#181818 0 1px 1px;
+	
+}
+a.nohover:hover {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:10px;
+  color:#000;
+  text-decoration:none;
+}
+
+.add-on{
+	width:100px;
+	text-align:right:;
+}
+
+.ch_input{
+	width:40px; 
+	background-color:#CDCD00;
+}
+
+/*DIV MENSAGENS */
+.toast-container {
+	width: 280px;
+	z-index: 9999;
+}
+
+
+* html .toast-container {
+	position: absolute;
+}
+
+.toast-item {
+	height: auto;
+	background: #333;
+    opacity: 0.9;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	color: #eee;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 6px;
+	padding-right: 6px;
+	font-family: lucida Grande;
+	font-size: 14px;
+	border: 2px solid #999;
+	display: block;
+	position: relative;
+	margin: 0 0 12px 0;
+}
+
+.toast-item p {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.toast-item-close {
+    background:url(../images/close.gif);
+    width:22px;
+    height:22px;
+    position: absolute;
+    top:7px;
+    right:7px;
+}
+
+.toast-item-image {
+    width:32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    left: 10px;
+}
+
+.toast-item-image-notice {
+    background:url(../images/notice.png);
+}
+
+.toast-item-image-success {
+    background:url(../images/success.png);
+}
+
+.toast-item-image-warning {
+    background:url(../images/warning.png);
+}
+
+.toast-item-image-error {
+    background:url(../images/error.png);
+}
+
+
+/**
+ * toast types
+ *
+ * pattern: toast-type-[value]
+ * where 'value' is the real value of the plugin option 'type'
+ *
+ */
+.toast-type-notice {
+    color: white;
+}
+
+.toast-type-success {
+    color: white;
+}
+
+.toast-type-warning {
+    color: white;
+    border-color: #FCBD57;
+}
+
+.toast-type-error {
+    color: white;
+    border-color: #B32B2B;
+}
+
+/**
+ * positions
+ *
+ * pattern: toast-position-[value]
+ * where 'value' is the real value of the plugin option 'position'
+ *
+ */
+.toast-position-top-left {
+    position: fixed;
+    left: 20px;
+    top: 20px;
+}
+
+.toast-position-top-center {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    margin-left: -140px;
+}
+
+.toast-position-top-right {
+    position: fixed;
+    top: 100px;
+    right: 20px;
+}
+
+.toast-position-middle-left {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    margin-top: -40px;
+}
+
+.toast-position-middle-center {
+    position: fixed;
+    left: 50%;
+    margin-left: -140px;
+    margin-top: -40px;
+    top: 50%;
+}
+
+.toast-position-middle-right {
+    position: fixed;
+    right: 20px;
+    margin-left: -140px;
+    margin-top: -40px;
+    top: 50%;
+}

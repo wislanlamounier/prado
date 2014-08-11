@@ -1,0 +1,9 @@
+
+.invalid{
+    border:1px solid red !important;
+}
+label
+{
+    display: block;
+}
+

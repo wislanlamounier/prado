@@ -1,0 +1,128 @@
+/* demo page styles */
+body {
+    background:#eee;
+    margin:0;
+    padding:0;
+    font-family: "Trebuchet MS",Arial,Helvetica,sans-serif;
+}
+.example {
+    position:relative;
+    background:#fff url(../images/background.jpg);
+    width:650px;
+    height:382px;
+    border:1px #000 solid;
+    margin:20px auto;
+    border-radius:3px;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+}
+
+/* main menu styles */
+ul.nav {
+    list-style:none;
+    height:120px;
+    margin:0;
+    padding:0;
+}
+
+ul.nav table {
+    border-collapse:collapse;
+    width:0;
+    height:0;
+    margin:-1px 0 -5px -1px;
+}
+
+ul.nav > li {
+    float:right;
+    height:120px;
+    width:40px;
+    position:relative;
+    overflow:hidden;
+    -webkit-transition-duration:1s;
+    -moz-transition-duration:1s;
+    -o-transition-duration:1s;
+}
+
+* html ul.nav > li {
+    width:auto;
+}
+
+ul.nav > li a.ie6 {
+    float:left;
+    height:120px;
+    width:39px;
+    position:relative;
+    overflow:hidden;
+}
+
+ul.sub {
+    list-style:none;
+    height:120px;
+    width:269px;
+    background:url(../images/panel.png) no-repeat right top;
+    position:absolute;
+    left:0;
+    top:0;
+    margin:0;
+    padding:0;
+}
+
+ul.sub li {
+    float:left;
+}
+
+ul.sub li:first-child {
+    margin-left:45px;
+}
+
+ul.sub li a {
+    display:block;
+    width:110px;
+    height:120px;
+    float:left;
+    overflow:hidden;
+    position:relative;
+    text-decoration:none;
+    color:#000;
+}
+
+ul.sub li a b {
+    font-weight:700;
+    display:block;
+    padding:15px 15px 5px;
+}
+
+ul.sub li a p {
+    font-size:12px;
+    display:block;
+    margin:0;
+    padding:0 10px;
+}
+
+ul.sub li a i {
+    display:block;
+    width:64px;
+    height:64px;
+    position:absolute;
+    right:10px;
+    bottom:10px;
+    background:url(../images/post.png);
+    opacity:0.1;
+    filter:alpha(opacity = 10);
+    -webkit-transition-duration:.5s;
+    -moz-transition-duration:.5s;
+    -o-transition-duration:.5s;
+}
+
+ul.nav > li:hover {
+    width:600px;
+}
+
+ul.nav > li a.ie6:hover {
+    direction:ltr;
+    width:600px;
+}
+
+ul.sub li a:hover i {
+    opacity:1.0;
+}

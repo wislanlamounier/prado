@@ -1,0 +1,81 @@
+body{
+		width:auto;
+}
+
+
+.conteudo {
+    padding-left:20px;
+	padding-right:20px;
+	padding-top:80px;
+	width:auto;
+	margin-bottom:70px;
+	font-family: "MS Serif", "New York", serif;
+}
+
+footer {
+    background-color:#066;
+    bottom:0;
+    box-shadow: 0 -1px 2px #111111;
+    display:block;
+    height:30px;
+    left:0;
+    position:fixed;
+    width:100%;
+    z-index:100;
+}
+
+footer h2{
+    font-size:22px;
+    font-weight:normal;
+    left:50%;
+    margin-left:-400px;
+    padding:22px 0;
+    position:absolute;
+    width:540px;
+}
+
+footer a.stuts,a.stuts:visited{
+    border:none;
+    text-decoration:none;
+    color:#fcfcfc;
+    font-size:12px;
+    left:65%;
+    line-height:31px;
+    position:absolute;
+    top:0;
+}
+
+footer .stuts span {
+    font-size:22px;
+    font-weight:bold;
+    margin-left:5px;
+}
+
+
+
+.usuario {
+	border-style:none;
+    color:#fff;
+    font-size:13px;
+    font-weight:bold;
+	background-color:#6c6c6c;
+    text-decoration:none;
+    text-shadow:#181818 0 1px 1px;
+	
+}
+a.nohover:hover {
+  font-family:Arial, Helvetica, sans-serif;
+  font-size:10px;
+  color:#000;
+  text-decoration:none;
+}
+
+.add-on{
+	width:100px;
+	text-align:right:;
+}
+
+.ch_input{
+	width:40px; 
+	background-color:#CDCD00;
+}

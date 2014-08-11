@@ -1,0 +1,359 @@
+ul#nav {
+    display:block;
+    float:left;
+    font-family:Trebuchet MS,sans-serif;
+    font-size:0;
+	position:fixed;
+	z-index:100;
+	margin-top:-8px;
+    padding:5px 5px 5px 0;
+	width:99%;
+	height:40px;
+    background: -moz-linear-gradient(#698B69, #2E8B57); /* FF 3.6+ */  
+    background: -ms-linear-gradient(#698B69, #2E8B57); /* IE10 */  
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #698B69), color-stop(100%, #2E8B57)); /* Safari 4+, Chrome 2+ */  
+    background: -webkit-linear-gradient(#698B69, #2E8B57); /* Safari 5.1+, Chrome 10+ */  
+    background: -o-linear-gradient(#698B69, #2E8B57); /* Opera 11.10 */  
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#698B69', endColorstr='#2E8B57'); /* IE6 & IE7 */  
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#698B69', endColorstr='#2E8B57')"; /* IE8+ */  
+    background: linear-gradient(#698B69, #2E8B57); /* the standard */ 
+}
+ul#nav,ul#nav ul {
+    list-style:none;
+    margin:0;
+	margin-top:-8px;
+}
+ul#nav,ul#nav .subs {
+    background-color:#444;
+	color:#FFF;
+
+
+}
+ul#nav .subs {
+    background-color:#2D2D2D;
+    display:none;
+    float:left;
+    left:0;
+    padding:0 6px 6px;
+    position:absolute;
+    top:100%;
+    width:200px;
+}
+ul#nav li:hover>* {
+    display:block;
+}
+ul#nav li:hover {
+    position:relative;
+}
+ul#nav ul .subs {
+    left:100%;
+    position:absolute;
+    top:0;
+}
+ul#nav ul {
+    padding:0 5px 5px;
+}
+ul#nav .col {
+    float:left;
+    width:50%;
+}
+ul#nav li {
+    display:block;
+    float:left;
+    font-size:0;
+    white-space:nowrap;
+}
+ul#nav>li,ul#nav li {
+    margin:0 0 0 5px;
+}
+ul#nav ul>li {
+    margin:5px 0 0;
+}
+ul#nav a:active,ul#nav a:focus {
+    outline-style:none;
+}
+ul#nav a {
+    border-style:none;
+    border-width:0;
+    color:#FFF;
+    cursor:pointer;
+    display:block;
+    font-size:13px;
+    font-weight:bold;
+    padding:8px 18px;
+    text-align:left;
+    text-decoration:none;
+    text-shadow:#fff 0 1px 1px;
+    vertical-align:middle;
+}
+ul#nav ul li {
+    float:none;
+    margin:6px 0 0;
+}
+ul#nav ul a {
+    background-color:#2D2D2D;
+    border-color:#efefef;
+    border-style:solid;
+    border-width:0 0 1px;
+    color:#FFF;
+    font-size:11px;
+    padding:4px;
+    text-align:left;
+    text-decoration:none;
+    text-shadow:#fff 0 0 0;
+
+    border-radius:0;
+    -moz-border-radius:0;
+    -webkit-border-radius:0;
+}
+ul#nav li:hover>a {
+    border-style:none;
+    color:#fff;
+    font-size:13px;
+    font-weight:bold;
+	
+    text-decoration:none;
+}
+ul#nav img {
+    border:none;
+    margin-right:8px;
+    vertical-align:middle;
+}
+ul#nav span {
+    background-position:right center;
+    background-repeat:no-repeat;
+    display:block;
+    overflow:visible;
+    padding-right:0;
+}
+ul#nav ul span {
+    background-image:url("../images/arrow.png");
+    padding-right:20px;
+}
+ul#nav ul li:hover>a {
+    border-color:#fff;
+    border-style:solid;
+    color:#fff;
+	
+    font-size:12px;
+    text-decoration:none;
+    text-shadow:#fff 5 0 0;
+}
+ul#nav > li >a {
+    background-color:transpa;
+    height:25px;
+    line-height:25px;
+
+    border-radius:11px;
+    -moz-border-radius:11px;
+    -webkit-border-radius:11px;
+}
+ul#nav > li:hover > a {
+    background-color:#818181;
+    line-height:25px;
+}
+
+
+
+
+@charset 'UTF-8';
+/* Starter CSS for Menu */
+
+
+.framemsg {
+  position:relative;
+  right:-800px;
+  top:-600px;
+  width:500px;
+}
+
+.frameindex {
+  position:relative;
+  alignment-adjust:central;
+  right:-15%;
+  top:0px;
+  width:900px;
+}
+
+.table_cabecalho {
+  display:none;
+  visibility:hidden;
+}
+
+.framecorpo {
+  position:relative;
+  right:0px;
+  top:0px;
+  width:500px;
+}
+
+.imprimirsomente {
+  display:none;
+}
+
+.textoVertical {
+	writing-mode:tb-rl;
+	-webkit-transform:rotate(270deg); //tente 90 no lugar de 270
+	-moz-transform:rotate(270deg);
+	-o-transform: rotate(270deg);
+	
+	display:block;
+	bottom:0;
+	width:20px;
+	height:20px;
+	font-size:12px;
+	text-shadow: 0px 0px 1px #333;
+	margin-top:50px;
+}
+
+
+
+/* tabelas de cadastro */
+#content #back #main #left #valr tablex {
+	font-weight: bold;
+}
+#content #back #main #left #valr table tr tdz {
+	font-weight: bold;
+}
+#content #back #header #menu ul li #camada1 b font {
+	color: #CCCCCC;
+}
+
+/*css global tabela*/
+		.full_table_edit{width: 350px;border-collapse: collapse;}
+         
+        /*colocando bordas nas linhas*/
+        .full_table_edit tr{border:0px black solid;}
+         
+        /*Definido cor das linhas pares*/
+        .full_table_edit tr:nth-child(even) {background: #FFF}
+         
+        /*Definindo cor das Linhas impáres*/
+        .full_table_edit tr:nth-child(odd) {background: #EEE} 
+
+
+        .full_table_cad{width: 500px;border-collapse: collapse;}
+         
+        /*colocando bordas nas linhas*/
+        .full_table_cad tr{border:0px black solid;}
+         
+        /*Definido cor das linhas pares*/
+        .full_table_cad tr:nth-child(even) {background: #FFF}
+         
+        /*Definindo cor das Linhas impáres*/
+        .full_table_cad tr:nth-child(odd) {background: #EEE} 
+		
+		
+		 
+
+/* tabelas de registros */
+#content #back #main #left #valr tablex {
+	font-weight: bold;
+}
+#content #back #main #left #valr table tr tdz {
+	font-weight: bold;
+}
+#content #back #header #menu ul li #camada1 b font {
+	color: #CCCCCC;
+}
+
+/*css global tabela*/
+        .full_table_list{width: 100%;border-collapse: collapse; }
+         
+        /*colocando bordas nas linhas*/
+        .full_table_list tr{border:1px black solid;}
+         
+        /*Definido cor das linhas pares*/
+        .full_table_list tr:nth-child(even) {background: #FFF}
+         
+        /*Definindo cor das Linhas impáres*/
+        .full_table_list tr:nth-child(odd) {background: #EED}  
+		
+		
+		
+        .full_table_list2{width: 80%;border-collapse: collapse; border:1px}
+         
+        /*colocando bordas nas linhas*/
+        .full_table_list2 tr{border:0px black solid;}
+         
+        /*Definido cor das linhas pares*/
+        .full_table_list2 tr:nth-child(even) {background: #FFF}
+         
+        /*Definindo cor das Linhas impáres*/
+        .full_table_list2 tr:nth-child(odd) {background: #EED}  
+		
+	
+		.full_table_list3{width: 100%; border:1px;}
+         
+        /*colocando bordas nas linhas*/
+        .full_table_list3 tr{border:1px black solid;}
+		.full_table_list3 td{border:1px black solid;}
+         
+        /*Definido cor das linhas pares*/
+        .full_table_list3 tr:nth-child(even) {background: #FFF}
+         
+        /*Definindo cor das Linhas impáres*/
+        .full_table_list3 tr:nth-child(odd) {background: #EED}  
+		
+		
+		.full_table_msg{width: 490px;border-collapse: collapse; border:1px}
+         
+        /*colocando bordas nas linhas*/
+        .full_table_msg tr{border:0px black solid;}
+         
+        /*Definido cor das linhas pares*/
+        .full_table_msg tr:nth-child(even) {background: #FFF}
+         
+        /*Definindo cor das Linhas impáres*/
+        .full_table_msg tr:nth-child(odd) {background: #EED}  
+		
+		
+        .full_table_diario{width: 100%; }
+         
+        /*colocando bordas nas linhas*/
+        .full_table_diario tr{border:1px black solid;
+		font-size:8px;}
+		.full_table_diario td{
+		font-size:8px;}
+		.full_table_diario th{border:1px black solid;
+		font-size:10px;}
+         
+        /*Definido cor das linhas pares*/
+        .full_table_diario tr:nth-child(even) {background: #FFF}
+         
+        /*Definindo cor das Linhas impáres*/
+        .full_table_diario tr:nth-child(odd) {background: #EED}  
+		
+		
+a:link, a:visited, a:active {
+	text-decoration:none;
+	}
+a:hover {
+	text-decoration: underline; 
+	color:#000; 
+	background:#ff0; 
+	}
+	
+	
+	
+/*DEFINIÇÕES DIÁRIO*/	
+  
+.table_tamanho1 {
+	font-size:10px; 
+	font-family:Arial, Helvetica, sans-serif;
+}
+.table_nome {
+	width:400px;
+}
+.table_num {
+	width:auto;
+}
+.table_div1 {
+	font-size:10px; 
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+.add-on{
+	width:100px;
+	text-align:left;
+}
